@@ -3,7 +3,7 @@ from os import system as cmd
 from os import listdir as ls
 
 print('Movie(0) or TV Show(1)?')
-category = input()
+category = int(input())
 
 path = '/mnt/user/Media'
 
