@@ -31,6 +31,6 @@ if isFile:
     terminal =  'cp ' + path + ' ' + destination
 else: terminal =  'cp -r ' + path + ' ' + destination
 
-cmd(terminal)
-
 print('copying file(s)...')
+cmd(terminal)
+print('done!')
