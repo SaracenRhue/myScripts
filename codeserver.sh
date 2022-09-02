@@ -9,4 +9,5 @@ apt install -y g++ zsh zsh-autosuggestions zsh-syntax-highlighting build-essenti
 
 brew install htop python nodejs npm openjdk kotlin go rust
 
+rm -fr ./codeserver.sh
 source ~/.bashrc
