@@ -7,12 +7,10 @@ apt install -y g++ zsh zsh-autosuggestions zsh-syntax-highlighting build-essenti
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+source ~/.bashrc
+
+
 brew install htop python nodejs npm openjdk kotlin go rust
 
- sudo git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10
- 
- curl -L http://install.ohmyz.sh | s
-
-
 rm -fr ./codeserver.sh
-source ~/.bashrc
+
