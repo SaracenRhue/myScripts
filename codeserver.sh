@@ -3,7 +3,7 @@
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt remove -y python
-sudo apt install -y g++ zsh zsh-autosuggestions zsh-syntax-highlighting build-essential procps curl file git curl
+sudo apt install build-essential procps file -y
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
