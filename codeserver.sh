@@ -13,5 +13,5 @@ source ~/.bashrc
 
 
 brew install htop python nodejs npm openjdk kotlin go rust
-source ~/.zshrc
+source ~/.bashrc
 pip3 install requests selenium pygame pyautogui
