@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt remove -y python
