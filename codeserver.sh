@@ -16,4 +16,5 @@ source ~/.bashrc
 brew install htop python nodejs npm openjdk kotlin go rust
 source ~/.bashrc
 npm install -g typescript
+npm install -g sass
 pip3 install requests selenium pygame pyautogui
