@@ -7,10 +7,8 @@ sudo apt remove -y python
 sudo apt install build-essential procps file -y
 
 yes ' ' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 #echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
-
-source ~/.bashrc
 
 
 brew install htop python nodejs npm openjdk kotlin go rust
