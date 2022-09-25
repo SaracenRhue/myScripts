@@ -10,6 +10,8 @@ yes ' ' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/
 
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
 
+sleep 5
+
 source ~/.bashrc
 brew install python nodejs npm openjdk kotlin go rust
 source ~/.bashrc
