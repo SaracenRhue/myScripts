@@ -5,8 +5,6 @@ sudo apt upgrade -y
 sudo apt remove -y python
 sudo apt install -y build-essential procps file
 
-touch ~/.bashrc
-
 
 yes '' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
