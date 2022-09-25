@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt remove -y python
-sudo apt install -y build-essential procps file
+apt update -y
+apt upgrade -y
+apt remove -y python
+apt install -y build-essential procps file
 
 
 yes '' | /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
