@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt update -y
-apt upgrade -y
-apt remove -y python
-apt install -y build-essential procps file
-apt install python3
+apt-get update -y
+apt-get upgrade -y
+apt-get remove -y python
+apt-getinstall -y build-essential procps file
+apt-get install -y python3
