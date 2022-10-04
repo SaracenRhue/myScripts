@@ -1,8 +1,7 @@
 #!/bin/bash
 
 cd
-sudo apt update -y
-sudo apt upgrade -y
+
 sudo apt remove -y python
 sudo apt install build-essential procps file -y
 
@@ -16,3 +15,5 @@ source ~/.bashrc
 npm install -g typescript
 npm install -g sass
 pip3 install requests selenium pygame pyautogui pyyaml Pillow python-opencv
+sudo apt update -y
+sudo apt upgrade -y
