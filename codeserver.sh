@@ -2,9 +2,9 @@
 
 cd
 
-sudo apt remove -y python
-sudo apt update -y
 
+sudo apt update
+sudo apt remove -y python
 
 sudo apt install build-essential procps file -y
 
