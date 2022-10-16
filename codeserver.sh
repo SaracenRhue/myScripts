@@ -13,10 +13,10 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 #echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
 
 
-brew install htop python nodejs npm openjdk kotlin go rust
+brew install htop python nodejs npm openjdk kotlin go rust gcc
 source ~/.bashrc
 npm install -g typescript
 npm install -g sass
-pip3 install requests selenium pygame pyautogui pyyaml Pillow python-opencv eel
+pip3 install requests selenium pygame pyautogui pyyaml Pillow python-opencv eel beautyfulsoup4
 
 sudo apt upgrade -y
