@@ -3,7 +3,7 @@
 reinstaqll code-server stuff
 
 ```bash
-yes ' ' | bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/unraidScripts/main/codeserver.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/unraidScripts/main/codeserver.sh)"
 ```
 
 custom vsc-mods install
