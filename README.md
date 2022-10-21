@@ -1,5 +1,11 @@
 # unraidScripts
 
+install geckodriver
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/unraidScripts/main/install_geckodriver.sh)"
+```
+
 reinstaqll code-server stuff
 
 ```bash
