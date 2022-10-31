@@ -11,5 +11,6 @@ apk add py3-pip
 apk add nodejs
 apk add npm
 apk add firefox-esr
+pip3 install wheel
 pip3 install pyyaml 
 pip3 install selenium
