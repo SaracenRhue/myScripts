@@ -17,3 +17,9 @@ custom vsc-mods install
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/unraidScripts/main/cust_vsc.sh)"
 ```
+
+alpine ios
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/unraidScripts/main/alpine_ios.sh)"
+```
