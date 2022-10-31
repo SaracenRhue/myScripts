@@ -1,5 +1,16 @@
 #!/bin/bash
 
-apk update && apk upgrade
-apk add bash git curl wget python3 py3-pip nodejs npm firefox-esr
-pip3 install numpy pyyaml selenium
+apk update
+apk upgrade
+apk add bash
+apk add git
+apk add curl 
+apk add wget
+apk add python3 
+apk add py3-pip 
+apk add nodejs
+apk add npm
+apk add firefox-esr
+pip3 install numpy 
+pip3 install pyyaml 
+pip3 install selenium
