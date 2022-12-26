@@ -1,4 +1,4 @@
-# unraidScripts
+# myScripts
 
 install geckodriver
 
