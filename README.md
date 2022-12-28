@@ -1,5 +1,23 @@
 # myScripts
 
+setup zsh
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/myScripts/main/setup_zsh.sh)"
+```
+
+setup x86 emu on raspberry pi
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/myScripts/main/pi.sh)"
+```
+
+install nala for apt
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/myScripts/main/nala.sh)"
+```
+
 install geckodriver
 
 ```bash
