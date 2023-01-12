@@ -6,6 +6,12 @@ setup zsh
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/myScripts/main/setup_zsh.sh)"
 ```
 
+get isos
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/myScripts/main/get_iso.sh)"
+```
+
 setup x86 emu on raspberry pi
 
 ```bash
