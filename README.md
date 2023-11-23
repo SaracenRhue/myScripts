@@ -1,12 +1,5 @@
 # myScripts
 
-pilab
-
-```bash
-sudo apt update && sudo apt install -y curl
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/SaracenRhue/myScripts/main/pilab.sh)"
-```
-
 setup zsh
 
 ```bash
